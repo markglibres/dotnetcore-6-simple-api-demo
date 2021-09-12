@@ -1,0 +1,10 @@
+var app = WebApplication.CreateBuilder(args).Build();
+
+app.MapGet("/", () => "Hello world reloaded!");
+
+// app.MapGet("/", () => {
+//     var customer = new Customer(Guid.NewGuid(), "Test");
+//     return customer.Fullname;
+// });
+
+app.Run();

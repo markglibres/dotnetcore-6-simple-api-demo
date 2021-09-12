@@ -2,6 +2,9 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>Simple.Api</RootNamespace>
+    <RootNamespace>Simple Api</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1"/>
+  </ItemGroup>
 </Project>
