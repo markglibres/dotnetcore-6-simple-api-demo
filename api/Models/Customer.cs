@@ -1,0 +1,1 @@
+record Customer (Guid Id, string Fullname);
